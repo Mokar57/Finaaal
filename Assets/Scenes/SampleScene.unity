@@ -137,6 +137,7 @@ GameObject:
   - component: {fileID: 175449577}
   - component: {fileID: 175449581}
   - component: {fileID: 175449582}
+  - component: {fileID: 175449583}
   m_Layer: 0
   m_Name: "t\u0131rt\u0131l"
   m_TagString: Untagged
@@ -278,6 +279,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -1.54, y: 1.74, z: 0}
+  m_LocalPosition: {x: -2.19, y: -3.019, z: 0}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -311,6 +313,24 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerCollider: {fileID: 175449577}
   beklemesuresi: 0.5
+--- !u!114 &175449583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 175449576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 903cf1c3bad5bf74baa7bd7642943420, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  castdistance: 0.43
+  groundLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  boxSize: {x: 1.52, y: 0.02}
+  jumpForce: 300
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -415,7 +435,7 @@ GameObject:
   - component: {fileID: 860900156}
   - component: {fileID: 860900155}
   - component: {fileID: 860900154}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject (4)
   m_TagString: tekyonplatform
   m_Icon: {fileID: 0}
@@ -564,7 +584,7 @@ GameObject:
   - component: {fileID: 1190743714}
   - component: {fileID: 1190743713}
   - component: {fileID: 1190743712}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -695,7 +715,7 @@ GameObject:
   - component: {fileID: 1248141587}
   - component: {fileID: 1248141586}
   - component: {fileID: 1248141585}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject (2)
   m_TagString: tekyonplatform
   m_Icon: {fileID: 0}
@@ -845,7 +865,7 @@ GameObject:
   - component: {fileID: 1785718480}
   - component: {fileID: 1785718479}
   - component: {fileID: 1785718478}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject (3)
   m_TagString: tekyonplatform
   m_Icon: {fileID: 0}
@@ -995,7 +1015,7 @@ GameObject:
   - component: {fileID: 2024300878}
   - component: {fileID: 2024300877}
   - component: {fileID: 2024300876}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: GameObject (1)
   m_TagString: tekyonplatform
   m_Icon: {fileID: 0}
