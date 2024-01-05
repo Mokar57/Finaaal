@@ -60,7 +60,7 @@ public class Zıplama : MonoBehaviour
   {
     if (other.gameObject.CompareTag("tekyonplatform"))
     {
-      Debug.Log("yerde");
+      
       yerdemi = true;
     }
     
@@ -70,7 +70,7 @@ public class Zıplama : MonoBehaviour
   {
     if (other.gameObject.CompareTag("tekyonplatform"))
     {
-      Debug.Log("yerde değil");
+      
       yerdemi = false;
     }
   }

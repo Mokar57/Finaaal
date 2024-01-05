@@ -31,6 +31,7 @@ public class hareket : MonoBehaviour
   horizontal = Input.GetAxis("Horizontal");
   rb.velocity = new Vector3(horizontal * Time.deltaTime * speed, rb.velocity.y, 0);
   //horizontal hareket için hızlanması için speed ile çarpıyoruz,rb.velocity yerçekimi devam etsin diye
+  
  }
 
  void dön()
